@@ -19,20 +19,59 @@ It follows the structure and syllabus of the **"GFG DSA Self-Paced Course"**, de
 ## 🧩 Folder Structure
 
 ```
-/Arrays
-/Strings
-/SearchingSorting
-/RecursionBacktracking
-/LinkedLists
-/StacksQueues
-/Trees
-/BinarySearchTrees
-/Heaps
-/Hashing
-/Graphs
-/Greedy
-/DynamicProgramming
-/Miscellaneous
+DSA-GFG/
+├── 01-introduction/
+│   └── readme.md
+├── 02-mathematics/
+│   ├── ...
+├── 03-bit-magic/
+│   └── ...
+├── 04-arrays/
+│   └── ...
+├── 05-searching/
+│   └── ...
+├── 06-sorting/
+│   └── ...
+├── 07-recursion/
+│   └── ...
+├── 08-matrices/
+│   └── ...
+├── 09-hashing/
+│   └── ...
+├── 10-strings/
+│   └── ...
+├── 11-linked-list/
+│   └── ...
+├── 12-stack/
+│   └── ...
+├── 13-queue/
+│   └── ...
+├── 14-deque/
+│   └── ...
+├── 15-tree/
+│   └── ...
+├── 16-binary-search-tree/
+│   └── ...
+├── 17-heap/
+│   └── ...
+├── 18-graph/
+│   └── ...
+├── 19-greedy/
+│   └── ...
+├── 20-dynamic-programming/
+│   └── ...
+├── 21-backtracking/
+│   └── ...
+├── 22-trie/
+│   └── ...
+├── 23-disjoint-set/
+│   └── ...
+├── 24-bitmasking/
+│   └── ...
+├── 25-segment-tree/
+│   └── ...
+├── README.md
+
 ```
 
 Each folder contains:
@@ -42,23 +81,45 @@ Each folder contains:
 
 ---
 
-## 📚 Topics Covered
+# 📚 DSA with Java – GeeksforGeeks Self-Paced Tracker
 
-| Category | Topics |
-|:---|:---|
-| Arrays | Searching, Sorting, Sliding Window, Kadane's Algorithm |
-| Strings | String Manipulation, Pattern Searching (KMP, Rabin-Karp) |
-| Searching & Sorting | Binary Search, Merge Sort, Quick Sort |
-| Recursion & Backtracking | Subsets, Permutations, N-Queens Problem |
-| Linked Lists | Singly, Doubly, Circular Linked Lists |
-| Stacks and Queues | Implementation using Arrays and Linked Lists |
-| Trees | Binary Trees, Traversals (Inorder, Preorder, Postorder) |
-| Binary Search Trees (BST) | Insert, Delete, Search Operations |
-| Heaps | Min Heap, Max Heap, HeapSort, Priority Queues |
-| Hashing | HashSet, HashMap, Chaining, Open Addressing |
-| Graphs | BFS, DFS, Cycle Detection, Shortest Path Algorithms |
-| Greedy Algorithms | Activity Selection, Huffman Coding, Fractional Knapsack |
-| Dynamic Programming | Memoization, Tabulation, 0/1 Knapsack, Longest Subsequence Problems |
+This repo contains my complete DSA practice solutions based on the **GfG Self-Paced DSA Course**, organized topic-wise.
+
+| Section No. | Topic                | Folder Name          |
+|-------------|----------------------|----------------------|
+| 01          | Introduction          | 01-introduction      |
+| 02          | Mathematics           | 02-mathematics       |
+| 03          | Bit Magic             | 03-bit-magic         |
+| 04          | Arrays                | 04-arrays            |
+| 05          | Searching             | 05-searching         |
+| 06          | Sorting               | 06-sorting           |
+| 07          | Recursion             | 07-recursion         |
+| 08          | Matrices              | 08-matrices          |
+| 09          | Hashing               | 09-hashing           |
+| 10          | Strings               | 10-strings           |
+| 11          | Linked List           | 11-linked-list       |
+| 12          | Stack                 | 12-stack             |
+| 13          | Queue                 | 13-queue             |
+| 14          | Deque                 | 14-deque             |
+| 15          | Tree                  | 15-tree              |
+| 16          | Binary Search Tree    | 16-binary-search-tree|
+| 17          | Heap                  | 17-heap              |
+| 18          | Graph                 | 18-graph             |
+| 19          | Greedy                | 19-greedy            |
+| 20          | Dynamic Programming   | 20-dynamic-programming|
+| 21          | Backtracking          | 21-backtracking      |
+| 22          | Trie                  | 22-trie              |
+| 23          | Disjoint Set          | 23-disjoint-set      |
+| 24          | Bitmasking            | 24-bitmasking        |
+| 25          | Segment Tree          | 25-segment-tree      |
+
+---
+
+## 🔥 How to Use This Repo
+- Each folder contains `.java` files for solved problems
+- `readme.md` inside each folder lists completed subtopics and links (if needed)
+- All problems are either from **GFG Practice** or inspired by video explanations
+
 
 ---
 
