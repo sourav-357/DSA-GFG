@@ -2,7 +2,8 @@
 
 package P02_Mathematics;
 
-public class SumOfNaturalNumber {
+public class BasicProgram1 {
+
     public static int findSum(int n) {
         // code here
         return ((n * (n + 1)) / 2);
