@@ -1,3 +1,5 @@
+// Given a non-negative integer n. You have to check if it is a power of 2 or not. 
+
 package P03_BitMagic;
 
 public class PowerOf2 {
