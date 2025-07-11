@@ -1,3 +1,4 @@
+package P03_BitMagic;
 public class IsCompliment {
     static String onesComplement(String S, int N) {
         StringBuilder result = new StringBuilder();
