@@ -1,3 +1,4 @@
+package P03_BitMagic;
 public class TrailsOfOnes {
     public int countConsec(int n) {
         if (n == 0)
