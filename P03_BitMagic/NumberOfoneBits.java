@@ -1,3 +1,4 @@
+package P03_BitMagic;
 public class NumberOfoneBits {
     static int setBits(int n) {
         // code here
