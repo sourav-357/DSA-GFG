@@ -1,3 +1,4 @@
+package P03_BitMagic;
 public class FindPOSITION {
     static int findPosition(int n) {
         // No set bit at all
