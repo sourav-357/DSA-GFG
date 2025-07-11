@@ -1,3 +1,4 @@
+package P03_BitMagic;
 public class MissingNumberSuffledArray {
     public int findMissing(int[] arr1, int[] arr2) {
         // code here
