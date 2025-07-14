@@ -1,6 +1,6 @@
 // Given an positive integer n, print numbers from 1 to n without using loops.
 
-package Bla;
+package P04_Recursion;
 
 public class Print1toN {
     static void printTillN(int N) {
