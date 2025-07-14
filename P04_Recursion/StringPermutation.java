@@ -1,6 +1,6 @@
 // Given a string S. The task is to find all permutations (need not be different) of a given string.
 
-package Bla;
+package P04_Recursion;
 
 import java.util.ArrayList;
 import java.util.Collections;
