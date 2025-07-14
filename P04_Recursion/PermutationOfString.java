@@ -1,6 +1,6 @@
 // Given a string s, which may contain duplicate characters, your task is to generate and return an array of all unique permutations of the string. You can return your answer in any order.
 
-package Bla;
+package P04_Recursion;
 
 import java.util.ArrayList;
 import java.util.Arrays;
