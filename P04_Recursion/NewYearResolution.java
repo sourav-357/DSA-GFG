@@ -10,7 +10,7 @@ Merchandise Eligibility: To purchase merchandise, Geeks should solve atleast one
 Geek's resolutions often fades over time. Realistically, he can only commit to active participation for N (where N ≤ 366) days. Given the value of N and number of coins associated with each POTD, can Geek strategically solve some (or all) POTDs to become eligible for redeeming merchandise?
 */
 
-package Bla;
+package P04_Recursion;
 
 public class NewYearResolution {
     public static boolean isPossible(int N, int[] coins) {
