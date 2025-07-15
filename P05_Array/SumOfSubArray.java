@@ -35,7 +35,7 @@ public class SumOfSubArray {
         long result = 0;
         int MOD = (int)(1e9 + 7); 
         for (int i = 0; i < n; i++) {
-            result += (long) arr[i] * prevLess[i] * nextLess[i];
+            result = (result + (long) arr[i] * prevLess[i] * nextLess[i]) % MOD;
         }
 
         return (int) result;
