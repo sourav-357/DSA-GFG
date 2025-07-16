@@ -1,3 +1,4 @@
+package P05_Array;
 // In a restaurant, two waiters, A and B, receive n orders per day, earning tips as per arrays arr[i] and brr[i] respectively. If A takes the ith order, the tip is arr[i] rupees; if B takes it, the tip is brr[i] rupees.
 
 // To maximize total tips, they must distribute the orders such that:
