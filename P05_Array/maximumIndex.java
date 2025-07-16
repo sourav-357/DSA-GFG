@@ -1,3 +1,4 @@
+package P05_Array;
 // Given an array arr of positive integers. You have to return the maximum of j - i such that arr[i] < arr[j] and i < j.
 
 public class maximumIndex {
