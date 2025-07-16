@@ -1,3 +1,4 @@
+package P05_Array;
 // Given an array of integers arr[], find the contiguous subarray with the maximum sum that contains only non-negative numbers. If multiple subarrays have the same sum, return the one with the smallest starting index. If the array contains only negative numbers, return -1.
 
 // Note: A subarray is a contiguous non-empty sequence of elements within an array.
