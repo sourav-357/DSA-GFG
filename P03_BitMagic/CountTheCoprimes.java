@@ -20,8 +20,7 @@ public class CountTheCoprimes {
         }
         return count;
     }
-
-    // Helper method to compute GCD
+    
     int gcd(int a, int b) {
         if (b == 0)
             return a;
