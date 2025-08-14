@@ -1,3 +1,5 @@
+package P06_Searching;
+
 public class KthElementOfTwoArray {
     
 }
