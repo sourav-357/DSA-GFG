@@ -1,3 +1,11 @@
+/*
+Given an array arr[] where each element denotes the length of a board, and an integer k representing the number of painters available. 
+Each painter takes 1 unit of time to paint 1 unit length of a board.
+
+Determine the minimum amount of time required to paint all the boards, under the constraint that each painter can paint 
+only a contiguous sequence of boards (no skipping or splitting allowed).
+*/
+
 package P06_Searching;
 
 import java.util.*;
