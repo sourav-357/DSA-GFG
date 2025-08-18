@@ -1,3 +1,14 @@
+/*
+Given an array arr[] of integers, where each element arr[i] represents the number of pages in the i-th book. You also have an integer k representing the number of students. The task is to allocate books to each student such that:
+
+Each student receives atleast one book.
+Each student is assigned a contiguous sequence of books.
+No book is assigned to more than one student.
+The objective is to minimize the maximum number of pages assigned to any student. In other words, out of all possible allocations, find the arrangement where the student who receives the most pages still has the smallest possible maximum.
+
+Note: If it is not possible to allocate books to all students, return -1.
+*/
+
 package P06_Searching;
 
 public class AllowcateMinimumPages {
