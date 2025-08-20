@@ -1,9 +1,6 @@
 package P06_Searching;
 
-public class MinimumInRotated {
-    
-}
-class Solution {
+class MinimumInRotated {
     public int findMin(int[] arr) {
         int low = 0, high = arr.length - 1;
         
