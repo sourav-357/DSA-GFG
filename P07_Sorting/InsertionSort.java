@@ -1,9 +1,6 @@
 package P07_Sorting;
 
-public class InsertionSort {
-    
-}
-class Solution {
+class InsertionSort {
     // Please change the array in-place
     public void insertionSort(int arr[]) {
         
