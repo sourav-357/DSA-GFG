@@ -1,10 +1,7 @@
 package P06_Searching;
 
-public class SearchInAnAlmostSortedArray {
-    
-}
 // User function Template for Java
-class Solution {
+class SearchInAnAlmostSortedArray {
     public int findTarget(int arr[], int target) {
         
         int low = 0, high = arr.length-1, mid = 0;
