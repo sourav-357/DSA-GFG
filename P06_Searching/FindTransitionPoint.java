@@ -2,10 +2,7 @@
 
 package P06_Searching;
 
-public class FindTransitionPoint {
-    
-}
-class Solution {
+class FindTransitionPoint {
     int transitionPoint(int arr[]) {
         
         // Declaring the Constraints 
