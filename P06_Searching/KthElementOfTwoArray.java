@@ -1,9 +1,6 @@
 package P06_Searching;
 
-public class KthElementOfTwoArray {
-    
-}
-class Solution {
+class KthElementOfTwoArray {
     public int kthElement(int a[], int b[], int k) {
         int n = a.length, m = b.length;
 
