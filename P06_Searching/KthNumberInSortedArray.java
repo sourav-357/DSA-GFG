@@ -1,9 +1,6 @@
 package P06_Searching;
 
-public class KthNumberInSortedArray {
-    
-}
-class Solution {
+class KthNumberInSortedArray {
     public int kthMissing(int[] arr, int k) {
         int low = 0, high = arr.length - 1;
 

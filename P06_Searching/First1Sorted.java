@@ -1,9 +1,6 @@
 package P06_Searching;
 
-public class First1Sorted {
-    
-}
-class Solution {
+class First1Sorted {
 
     public long firstIndex(int arr[]) {
         int n = arr.length;
