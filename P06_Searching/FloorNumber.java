@@ -1,9 +1,6 @@
 package P06_Searching;
 
-public class FloorNumber {
-    
-}
-class Solution {
+class FloorNumber {
     public int findFloor(int[] arr, int x) {
         int low = 0, high = arr.length - 1;
         int ans = -1; // store index of floor
