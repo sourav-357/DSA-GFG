@@ -1,9 +1,6 @@
 package P05_Array;
 
-public class Rotate {
-    
-}
-class Solution {
+class Rotate {
     public void rotate(int[] arr) {
         int n = arr.length;
         

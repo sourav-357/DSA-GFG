@@ -1,9 +1,6 @@
 package P06_Searching;
 
-public class NumberOfOccourance {
-    
-}
-class Solution {
+class NumberOfOccourance {
     int countFreq(int[] arr, int target) {
         
         int first = firstOcc(arr, target);

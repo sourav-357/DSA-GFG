@@ -1,9 +1,6 @@
 package P06_Searching;
 
-public class SquareRoot {
-    
-}
-class Solution {
+class SquareRoot {
     int floorSqrt(int n) {
         if (n == 0 || n == 1) return n;
 

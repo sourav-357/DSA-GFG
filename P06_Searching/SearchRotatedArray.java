@@ -1,9 +1,6 @@
 package P06_Searching;
 
-public class SearchRotatedArray {
-    
-}
-class Solution {
+class SearchRotatedArray {
     public int search(int[] arr, int key) {
         int low = 0;
         int high = arr.length - 1;

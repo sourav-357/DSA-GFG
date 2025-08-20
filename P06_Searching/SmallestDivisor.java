@@ -1,9 +1,6 @@
 package P06_Searching;
 
-public class SmallestDivisor {
-    
-}
-class Solution {
+class SmallestDivisor {
     int smallestDivisor(int[] arr, int k) {
         
         // Declaring constraints 

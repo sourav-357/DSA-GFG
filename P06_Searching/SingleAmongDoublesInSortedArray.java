@@ -1,9 +1,6 @@
 package P06_Searching;
 
-public class SingleAmongDoublesInSortedArray {
-    
-}
-class Solution {
+class SingleAmongDoublesInSortedArray {
     int single(int[] arr) {
         
         int lo = 0, hi = arr.length - 1;

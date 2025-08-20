@@ -1,9 +1,6 @@
 package P06_Searching;
 
-public class SearchInsertPositionOfK {
-    
-}
-class Solution {
+class SearchInsertPositionOfK {
     public int searchInsertK(int arr[], int k) {
         
         int low = 0, high = arr.length - 1, mid = 0;
