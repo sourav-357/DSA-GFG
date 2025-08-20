@@ -1,9 +1,6 @@
 package P06_Searching;
 
-public class FindKthRotation {
-    
-}
-class Solution {
+class FindKthRotation {
     public int findKRotation(int arr[]) {
         
         int low = 0, high = arr.length - 1 ;
