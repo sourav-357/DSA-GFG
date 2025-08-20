@@ -2,7 +2,7 @@ package P06_Searching;
 
 import java.util.ArrayList;
 
-class Solution {
+class RemoveDuplicateFromSorted {
     // Function to remove duplicates from the given array.
     ArrayList<Integer> removeDuplicates(int[] arr) {
         ArrayList<Integer> result = new ArrayList<>();
