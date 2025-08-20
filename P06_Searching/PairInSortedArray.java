@@ -1,9 +1,6 @@
 package P06_Searching;
 
-public class PairInSortedArray {
-    
-}
-class Solution {
+class PairInSortedArray {
     int countPairs(int arr[], int target) {
         int count = 0;
         int left = 0;
