@@ -11,10 +11,7 @@ Note: If it is not possible to allocate books to all students, return -1.
 
 package P06_Searching;
 
-public class AllowcateMinimumPages {
-    
-}
-class Solution {
+class AllowcateMinimumPages {
     public int findPages(int[] arr, int k) {
         // code here
         // if number of students are more than total books

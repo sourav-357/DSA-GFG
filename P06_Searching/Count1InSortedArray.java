@@ -1,9 +1,6 @@
 package P06_Searching;
 
-public class Count1InSortedArray {
-    
-}
-class Solution {
+class Count1InSortedArray {
     public int countOnes(int[] arr) {
         int low = 0, high = arr.length - 1;
         int lastOneIndex = -1;

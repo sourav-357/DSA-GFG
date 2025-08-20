@@ -1,9 +1,6 @@
 package P06_Searching;
 
-public class BinarySearch {
-    
-}
-class Solution {
+class BinarySearch {
     static int binarysearch(int arr[], int k) {
         int low = 0, high = arr.length - 1;
         int ans = -1;
