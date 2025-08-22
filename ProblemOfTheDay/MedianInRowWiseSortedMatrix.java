@@ -1,3 +1,6 @@
+// Given a row-wise sorted matrix mat[][] of size n*m, 
+// where the number of rows and columns is always odd. Return the median of the matrix.
+
 package ProblemOfTheDay;
 
 class MedianInRowWiseSortedMatrix {
