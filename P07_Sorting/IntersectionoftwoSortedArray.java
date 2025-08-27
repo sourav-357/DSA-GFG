@@ -1,3 +1,9 @@
+/*
+Given two sorted arrays arr1[] and arr2[]. Your task is to return the intersection of both arrays.
+Intersection of two arrays is said to be elements that are common in both arrays. The intersection should not count duplicate elements.
+Note: If there is no intersection then return an empty array.
+*/
+
 package P07_Sorting;
 
 import java.util.ArrayList;
