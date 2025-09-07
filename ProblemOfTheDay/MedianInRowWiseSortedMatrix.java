@@ -13,8 +13,8 @@ class MedianInRowWiseSortedMatrix {
         int high = Integer.MIN_VALUE;
 
         for (int i = 0; i < n; i++) {
-            low = Math.min(low, mat[i][0]);         // first element in row (smallest)
-            high = Math.max(high, mat[i][m - 1]);   // last element in row (largest)
+            low = Math.min(low, mat[i][0]); // first element in row (smallest)
+            high = Math.max(high, mat[i][m - 1]); // last element in row (largest)
         }
 
         int desired = (n * m) / 2;
