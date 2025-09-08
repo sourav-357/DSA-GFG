@@ -14,7 +14,7 @@ class Node {
     }
 }
 
-class Merge2SortedLinkedList {
+public class Merge2SortedLinkedList {
     Node mergeKLists(Node[] arr) {
         // PriorityQueue to hold nodes based on their data value
         PriorityQueue<Node> pq = new PriorityQueue<>(new Comparator<Node>() {
