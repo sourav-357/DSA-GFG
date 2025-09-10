@@ -1,60 +1,61 @@
 package ProblemOfTheDay;
 
-class MergeSortForLinkedList {
-    // Main function to sort a linked list using Merge Sort
-    public Node mergeSort(Node head) {
-        // Base case: if head is null or only one element
-        if (head == null || head.next == null) {
-            return head;
-        }
 
-        // Step 1: Split the list into two halves
-        Node middle = getMiddle(head);
-        Node nextOfMiddle = middle.next;
+// class MergeSortForLinkedList {
+//     // Main function to sort a linked list using Merge Sort
+//     public Node mergeSort(Node head) {
+//         // Base case: if head is null or only one element
+//         if (head == null || head.next == null) {
+//             return head;
+//         }
 
-        // Disconnect the first half from the second
-        middle.next = null;
+//         // Step 1: Split the list into two halves
+//         Node middle = getMiddle(head);
+//         Node nextOfMiddle = middle.next;
 
-        // Step 2: Recursively sort both halves
-        Node left = mergeSort(head);
-        Node right = mergeSort(nextOfMiddle);
+//         // Disconnect the first half from the second
+//         middle.next = null;
 
-        // Step 3: Merge the sorted halves
-        return sortedMerge(left, right);
-    }
+//         // Step 2: Recursively sort both halves
+//         Node left = mergeSort(head);
+//         Node right = mergeSort(nextOfMiddle);
 
-    // Utility function to merge two sorted linked lists
-    private Node sortedMerge(Node a, Node b) {
-        if (a == null) return b;
-        if (b == null) return a;
+//         // Step 3: Merge the sorted halves
+//         return sortedMerge(left, right);
+//     }
 
-        Node result;
+//     // Utility function to merge two sorted linked lists
+//     private Node sortedMerge(Node a, Node b) {
+//         if (a == null) return b;
+//         if (b == null) return a;
 
-        if (a.data <= b.data) {
-            result = a;
-            result.next = sortedMerge(a.next, b);
-        } else {
-            result = b;
-            result.next = sortedMerge(a, b.next);
-        }
+//         Node result;
 
-        return result;
-    }
+//         if (a.data <= b.data) {
+//             result = a;
+//             result.next = sortedMerge(a.next, b);
+//         } else {
+//             result = b;
+//             result.next = sortedMerge(a, b.next);
+//         }
 
-    // Utility function to find the middle of the linked list
-    private Node getMiddle(Node head) {
-        if (head == null) return head;
+//         return result;
+//     }
 
-        Node slow = head;
-        Node fast = head;
+//     // Utility function to find the middle of the linked list
+//     private Node getMiddle(Node head) {
+//         if (head == null) return head;
 
-        // Move fast pointer by two and slow pointer by one
-        // When fast reaches end, slow will be at middle
-        while (fast.next != null && fast.next.next != null) {
-            slow = slow.next;
-            fast = fast.next.next;
-        }
+//         Node slow = head;
+//         Node fast = head;
 
-        return slow;
-    }
-}
+//         // Move fast pointer by two and slow pointer by one
+//         // When fast reaches end, slow will be at middle
+//         while (fast.next != null && fast.next.next != null) {
+//             slow = slow.next;
+//             fast = fast.next.next;
+//         }
+
+//         return slow;
+//     }
+// }
