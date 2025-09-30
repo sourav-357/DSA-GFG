@@ -18,7 +18,7 @@ class MaximumSubarraySum {
                 int currentSum = prefix[end] - prefix[start];
                 maxSum = Math.max(maxSum, currentSum);
             }
-        }
+        } 
         
         return maxSum;
     }
