@@ -1,6 +1,6 @@
 package P04_Recursion;
 
-public class Print1ToNWithoutUsingLoops {
+public class P04_Print1ToNWithoutUsingLoops {
 
     public static void printNumbers(int n) {
         if (n <= 0) {

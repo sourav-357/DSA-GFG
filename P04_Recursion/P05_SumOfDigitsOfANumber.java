@@ -3,7 +3,7 @@
 
 package P04_Recursion;
 
-public class SumOfDigitsOfANumber {
+public class P05_SumOfDigitsOfANumber {
     public static int sumOfDigits(int n) {
         if (n == 0) {
             return 0; // Base case: if n is 0, sum of digits is 0
